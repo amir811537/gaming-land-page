@@ -575,7 +575,8 @@ font-size:13px;
   }
   .cardcontainer{
     flex-direction: column;
-    padding-left: 50px;
+    padding-left: 17px;
+    padding-right: 16px;
   }
   .box-1 p{
     text-align: center;
@@ -628,6 +629,9 @@ font-size:13px;
       }
       .category-item:hover{
         border: 1px solid #ff42a5;*!important
+      }
+      .media{
+        display: block;
       }
 
 
@@ -743,7 +747,7 @@ font-size:13px;
       display: grid;
       text-align: center;
       gap: 20px;
-      grid-template-columns: repeat(4, 1fr);}
+      grid-template-columns: repeat(, 1fr);}
       
   
 
